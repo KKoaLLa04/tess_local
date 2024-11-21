@@ -1,0 +1,8 @@
+@for $i from 0 through 500 {
+    .w-#{$i}px {
+      width: #{$i}px;
+    }
+    .h-#{$i}px {
+      height: #{$i}px;
+    }
+  }
